@@ -1078,15 +1078,15 @@ function calculatePuzzlePositions(container, pieces) {
   container.style.width = pieceWidth + "px";
   container.style.height = pieceHeight + "px";
 
-  // Define scattered positions - pieces move outward from center in their direction (gentle effect)
+  // Define scattered positions - pieces move outward from center in their direction (subtle effect)
   const scatterOffsets = [
-    { x: -18, y: -20, rot: -4 }, // p1 - upper left, subtle movement
-    { x: 20, y: -18, rot: 5 }, // p2 - upper right, subtle movement
-    { x: -20, y: 18, rot: 6 }, // p3 - lower left, subtle movement
-    { x: 18, y: 20, rot: -5 }, // p4 - lower right, subtle movement
-    { x: 22, y: -2, rot: -3 }, // p5 - right side, subtle movement
-    { x: -20, y: 5, rot: 4 }, // p6 - left side, subtle movement
-    { x: 6, y: -22, rot: -4 }, // p7 - top, subtle movement
+    { x: -10, y: -12, rot: -4 }, // p1 - upper left, minimal movement
+    { x: 12, y: -10, rot: 5 }, // p2 - upper right, minimal movement
+    { x: -12, y: 10, rot: 6 }, // p3 - lower left, minimal movement
+    { x: 10, y: 12, rot: -5 }, // p4 - lower right, minimal movement
+    { x: 13, y: -1, rot: -3 }, // p5 - right side, minimal movement
+    { x: -12, y: 3, rot: 4 }, // p6 - left side, minimal movement
+    { x: 3, y: -13, rot: -4 }, // p7 - top, minimal movement
   ];
 
   pieces.forEach((piece, index) => {
