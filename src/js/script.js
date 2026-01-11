@@ -1145,7 +1145,7 @@ function initToolsInteraction() {
 }
 
 // Initialize when DOM is ready
-window.addEventListener("load", function () {
+document.addEventListener("DOMContentLoaded", function () {
   initPortfolioWithDynamicImages();
   initShowMore();
   initVideoPlayer();
