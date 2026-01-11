@@ -2515,7 +2515,7 @@ model-viewer {
   object-fit: contain;
   object-position: top left;
   transform-origin: center center;
-  animation: puzzleAssemble 9s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+  animation: puzzleAssemble 12s ease-in-out infinite;
   /* animation: puzzleAssemble 10s ease-in-out infinite; */
   z-index: 10;
 }
@@ -2559,16 +2559,16 @@ model-viewer {
       rotate(var(--start-rot));
     opacity: 1;
   }
-  25% {
+  30% {
     transform: translate(-50%, -50%) rotate(0deg);
     opacity: 1;
   }
   50% {
-    transform: translate(-50%, -50%) rotate(5deg);
+    transform: translate(-50%, -50%) rotate(1deg);
     opacity: 1;
   }
-  75% {
-    transform: translate(-50%, -50%) rotate(-5deg);
+  70% {
+    transform: translate(-50%, -50%) rotate(-1deg);
     opacity: 1;
   }
   100% {
