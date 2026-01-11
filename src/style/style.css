@@ -2568,7 +2568,11 @@ model-viewer {
     opacity: 1;
   }
   100% {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(
+        calc(-50% + var(--start-x)),
+        calc(-50% + var(--start-y))
+      )
+      rotate(var(--start-rot));
     opacity: 1;
   }
 }
