@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./public/images/wiz-icon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Bebas+Neue&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <title>Portfolio | elv!s</title>
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio | eLv!S" />
+    <meta
+      property="og:description"
+      content="Welcome to my creative portfolio. Explore my 3D models, web design projects, images, and personal work."
+    />
+    <meta
+      property="og:image"
+      content="https://es-pf-v2.netlify.app/public/images/banner-link.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://es-pf-v2.netlify.app/" />
+    <meta property="og:site_name" content="eLv!S Portfolio" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portfolio | eLv!S" />
+    <meta
+      name="twitter:description"
+      content="Welcome to my creative portfolio. Explore my 3D models, web design projects, images, and personal work."
+    />
+    <meta
+      name="twitter:image"
+      content="https://es-pf-v2.netlify.app/public/images/banner-link.png"
+    />
+
+    <!-- Standard Meta Tags for SEO -->
+    <meta
+      name="description"
+      content="Welcome to my creative portfolio. Explore my 3D models, web design projects, images, and personal work."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, 3D models, web design, personal projects, creative work"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="elements-container">
+        <div class="logo-container">
+          <div class="logo-content">
+            <a href="#"><img src="./public/images/logo1.png" alt="logo" /></a>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="#" class="element"><div class="text-nav"></div></a>
+          </li>
+          <li>
+            <a href="#works-nav" class="element"
+              ><div class="text-nav"></div
+            ></a>
+          </li>
+          <li>
+            <a href="#about-nav" class="element"
+              ><div class="text-nav"></div
+            ></a>
+          </li>
+          <li>
+            <a href="#contact-nav" class="element"
+              ><div class="text-nav"></div
+            ></a>
+          </li>
+        </ul>
+        <!-- <div class="element" data-target="#home-nav">h</div>
+            <div class="element" data-target="works-nav">w</div>
+            <div class="element" data-target="#about-nav">a</div>
+            <div class="element" data-target="#contact-nav">c</div> -->
+      </div>
+    </div>
+
+    <div class="all-sections">
+      <!-- <div class="wlly-container">
+                <div class="image-wrap">
+                    <div class="image-content-wlly"><img src="public/images/wally.png" alt=""></div>
+                </div>
+            </div> -->
+
+      <!-- <div class="bg-elements-container">
+            <div class="bg-1pos"><div class="bg-element"></div></div>
+            <div class="bg-2pos"><div class="bg-element"></div></div>
+        </div>         -->
+
+      <!-- Hero Section -->
+      <div class="hero-section" id="home-nav">
+        <h1 class="bg-text-non-fill">Elvis Selisana</h1>
+
+        <!-- <div class="x-element-container">
+          <h6 class="x-bg">x</h6>
+        </div> -->
+
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="bg-1pos"><div class="bg-element"></div></div>
+            <!-- <h1 class="text-hero">.elViz!ons</h1> -->
+
+            <!-- <h6 class="text-hero"><center>o 1 0 T C T</center></h6> -->
+            <!-- <h1 class="text-hero">.o10TCT</h1> -->
+            <!-- <h1 class="text-hero">.elv!S </h1>-->
+            <!-- <div class="line-hero">|</div> -->
+            <div class="bg-2pos"><div class="bg-element"></div></div>
+
+            <!-- <div class="four-squares-container">
+              <div class="squares-bg"></div>
+              <div class="squares-bg"></div>
+              <div class="squares-bg"></div>
+              <div class="squares-bg"></div>
+              <div class="squares-bg"></div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Work Section -->
+      <div class="works-section" id="works-nav">
+        <div class="works-label">WORKS</div>
+        <!-- <h1 class="bg-text-behind">.o10TCT</h1> -->
+        <div class="works-container">
+          <div class="works-content">
+            <!-- Category -->
+            <div class="category-div">
+              <span class="category-btn" data-category="images">Images</span>
+              <span class="category-btn" data-category="videos">Videos</span>
+              <span class="category-btn" data-category="three-d">3D</span>
+              <span class="category-btn" data-category="web">Web</span>
+              <span class="category-btn" data-category="personal"
+                >Personal</span
+              >
+            </div>
+
+            <!-- Category-contents -->
+            <div class="category-contents-container">
+              <div class="category-wrapper">
+                <!-- Images Category -->
+                <!-- Image Item 1 -->
+                <div class="category-content images-item" data-link="#">
+                  <img src="./public/images/aka1.png" alt="image" />
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                </div>
+                <!-- Image Item 2 -->
+                <div class="category-content images-item" data-link="#">
+                  <img src="./public/images/aka2.png" alt="image" />
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                </div>
+                <!-- Image Item 3 -->
+                <div class="category-content images-item" data-link="#">
+                  <img src="./public/images/aka3.png" alt="image" />
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Videos Category -->
+                <!-- Video Item 1 -->
+                <div class="category-content videos-item" data-link="#">
+                  <video
+                    class="custom-video-player"
+                    playsinline
+                    muted
+                    autoplay
+                    loop
+                  >
+                    <source src="./public/vids/AVision.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="video-controls">
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                      <div class="buffered"></div>
+                    </div>
+                    <div class="controls-bottom">
+                      <button class="play-btn" aria-label="Play">
+                        <svg
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <polygon points="5 3 19 12 5 21"></polygon>
+                        </svg>
+                      </button>
+                      <div class="volume-control">
+                        <button class="volume-btn" aria-label="Mute">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <polygon
+                              points="3 9 7 9 11 5 11 19 7 15 3 15"
+                            ></polygon>
+                            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                          </svg>
+                        </button>
+                        <input
+                          type="range"
+                          class="volume-slider"
+                          min="0"
+                          max="100"
+                          value="0"
+                          aria-label="Volume"
+                        />
+                      </div>
+                      <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="duration">0:00</span>
+                      </div>
+                      <button class="fullscreen-btn" aria-label="Fullscreen">
+                        <svg
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 3H5a2 2 0 0 0-2 2v3m16 0V5a2 2 0 0 0-2-2h-3m0 16h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+                          ></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Video Item 2 -->
+                <div class="category-content videos-item" data-link="#">
+                  <video
+                    class="custom-video-player"
+                    playsinline
+                    muted
+                    autoplay
+                    loop
+                  >
+                    <source
+                      src="./public/vids/San-Mig-Rendered.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="video-controls">
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                      <div class="buffered"></div>
+                    </div>
+                    <div class="controls-bottom">
+                      <button class="play-btn" aria-label="Play">
+                        <svg
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <polygon points="5 3 19 12 5 21"></polygon>
+                        </svg>
+                      </button>
+                      <div class="volume-control">
+                        <button class="volume-btn" aria-label="Mute">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <polygon
+                              points="3 9 7 9 11 5 11 19 7 15 3 15"
+                            ></polygon>
+                            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                          </svg>
+                        </button>
+                        <input
+                          type="range"
+                          class="volume-slider"
+                          min="0"
+                          max="100"
+                          value="0"
+                          aria-label="Volume"
+                        />
+                      </div>
+                      <div class="time-display">
+                        <span class="current-time">0:00</span>
+                        <span class="duration">0:00</span>
+                      </div>
+                      <button class="fullscreen-btn" aria-label="Fullscreen">
+                        <svg
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M8 3H5a2 2 0 0 0-2 2v3m16 0V5a2 2 0 0 0-2-2h-3m0 16h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+                          ></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                  <a
+                    class="link-icon"
+                    aria-label="Visit project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10 5H8.59C7.711 5 7 5.711 7 6.59V15.41C7 16.289 7.711 17 8.59 17H17.41C18.289 17 19 16.289 19 15.41V14M21 3h-8m8 0l-8 8m8 0V5"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+
+                <!-- 3D Category -->
+                <!-- 3D Item 1 -->
+                <div
+                  class="category-content three-d-item"
+                  data-orientation="portrait"
+                >
+                  <model-viewer
+                    src="./public/3D/simple_cola_can.glb"
+                    alt="3D model"
+                    auto-rotate
+                    camera-controls
+                  ></model-viewer>
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Personal Category -->
+                <!-- Personal Item 1 -->
+                <div class="category-content personal-item" data-link="#">
+                  <img src="./public/images/wyv-img.JPG" alt="image" />
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                  <a
+                    class="link-icon"
+                    aria-label="Visit project"
+                    target="_blank"
+                    href="https://writeyourvoice.netlify.app/"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10 5H8.59C7.711 5 7 5.711 7 6.59V15.41C7 16.289 7.711 17 8.59 17H17.41C18.289 17 19 16.289 19 15.41V14M21 3h-8m8 0l-8 8m8 0V5"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+                <!-- Personal Item 2 -->
+                <div class="category-content personal-item" data-link="#">
+                  <img src="./public/images/valentine.png" alt="image" />
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                  <a
+                    class="link-icon"
+                    aria-label="Visit project"
+                    target="_blank"
+                    href="https://valentine-kuz.netlify.app/"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10 5H8.59C7.711 5 7 5.711 7 6.59V15.41C7 16.289 7.711 17 8.59 17H17.41C18.289 17 19 16.289 19 15.41V14M21 3h-8m8 0l-8 8m8 0V5"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+                <!-- Personal Item 3 -->
+                <div class="category-content personal-item" data-link="#">
+                  <img src="" alt="image" />
+                  <button class="view-icon" aria-label="View larger">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="6"></circle>
+                      <path d="M14 14l6 6"></path>
+                    </svg>
+                  </button>
+                  <a
+                    class="link-icon"
+                    aria-label="Visit project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M10 5H8.59C7.711 5 7 5.711 7 6.59V15.41C7 16.289 7.711 17 8.59 17H17.41C18.289 17 19 16.289 19 15.41V14M21 3h-8m8 0l-8 8m8 0V5"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+
+                <!-- Show More Button -->
+                <button class="show-more-btn" id="show-more-btn">
+                  Show More
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="about-section" id="about-nav">
+              <div class="cinematic-background"></div>
+              <div class="about-container">
+                <div class="about-content">
+                  <p class="little-desc">CRAFTED WITH VISION AND O10TCT</p>
+                  <div class="puzzle-animation-wrapper">
+                    <div class="puzzle-container">
+                      <img
+                        src="public/images/pieces/p1.png"
+                        class="puzzle-piece"
+                        data-piece="1"
+                        alt="puzzle piece 1"
+                      />
+                      <img
+                        src="public/images/pieces/p2.png"
+                        class="puzzle-piece"
+                        data-piece="2"
+                        alt="puzzle piece 2"
+                      />
+                      <img
+                        src="public/images/pieces/p3.png"
+                        class="puzzle-piece"
+                        data-piece="3"
+                        alt="puzzle piece 3"
+                      />
+                      <img
+                        src="public/images/pieces/p4.png"
+                        class="puzzle-piece"
+                        data-piece="4"
+                        alt="puzzle piece 4"
+                      />
+                      <img
+                        src="public/images/pieces/p5.png"
+                        class="puzzle-piece"
+                        data-piece="5"
+                        alt="puzzle piece 5"
+                      />
+                      <img
+                        src="public/images/pieces/p6.png"
+                        class="puzzle-piece"
+                        data-piece="6"
+                        alt="puzzle piece 6"
+                      />
+                      <img
+                        src="public/images/pieces/p7.png"
+                        class="puzzle-piece"
+                        data-piece="7"
+                        alt="puzzle piece 7"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="about-desc-container">
+                  <p class="about-desc-content">
+                    Upon crafting visuals, I intent to deliver more than just
+                    aesthetics; I aim to tell stories that resonate,
+                    communicate, and leave a lasting impact. My craft is mostly
+                    focused on curiosity, creativity, authenticity, and designs
+                    that engage and inspire viewers on a deeper level helping
+                    businesses and individuals to effectively convey their
+                    messages through compelling visual narratives.
+                  </p>
+                  <div class="tools-container">
+                    <h3 class="tools-title">Tools & Software</h3>
+                    <div class="tools-grid">
+                      <div class="tool-item" style="--index: 0">
+                        <div class="tool-overlay">
+                          <span class="tool-name">Illustrator</span>
+                        </div>
+                        <img
+                          src="public/images/tools/adobe-illustrator.png"
+                          alt="Adobe Illustrator"
+                        />
+                      </div>
+                      <div class="tool-item" style="--index: 1">
+                        <div class="tool-overlay">
+                          <span class="tool-name">After Effects</span>
+                        </div>
+                        <img
+                          src="public/images/tools/after-effects.png"
+                          alt="After Effects"
+                        />
+                      </div>
+                      <div class="tool-item" style="--index: 2">
+                        <div class="tool-overlay">
+                          <span class="tool-name">Blender</span>
+                        </div>
+                        <img
+                          src="public/images/tools/blender.png"
+                          alt="Blender"
+                        />
+                      </div>
+                      <div class="tool-item" style="--index: 3">
+                        <div class="tool-overlay">
+                          <span class="tool-name">Affinity</span>
+                        </div>
+                        <img
+                          src="public/images/tools/affinity-logo.png"
+                          alt="Blender"
+                        />
+                      </div>
+                      <div class="tool-item" style="--index: 4">
+                        <div class="tool-overlay">
+                          <span class="tool-name">Figma</span>
+                        </div>
+                        <img src="public/images/tools/Figma.png" alt="Figma" />
+                      </div>
+                      <div class="tool-item" style="--index: 5">
+                        <div class="tool-overlay">
+                          <span class="tool-name">FL Studio</span>
+                        </div>
+                        <img
+                          src="public/images/tools/fl-studio.png"
+                          alt="FL Studio"
+                        />
+                      </div>
+                      <div class="tool-item" style="--index: 6">
+                        <div class="tool-overlay">
+                          <span class="tool-name">Photoshop</span>
+                        </div>
+                        <img
+                          src="public/images/tools/photoshop.png"
+                          alt="Photoshop"
+                        />
+                      </div>
+                      <div class="tool-item" style="--index: 7">
+                        <div class="tool-overlay">
+                          <span class="tool-name">Premiere Pro</span>
+                        </div>
+                        <img
+                          src="public/images/tools/premiere-pro.png"
+                          alt="Premiere Pro"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="contact-section" id="contact-nav">
+            <div class="contact-container">
+              <div class="contact-content">
+                <h1>Contact Section</h1>
+                <p><center>(+63) 999 9999 999</center></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <!-- <div class="about-section" id="about-nav">
+            <div class="about-container">
+                <div class="about-content">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>         
+    </div> -->
+
+    <!-- Contact Section -->
+    <!-- <div class="about-section" id="about-nav">
+            <div class="about-container">
+                <div class="about-content">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+        </div>         
+    </div> -->
+
+    <!-- Lightbox Modal - At Body Level for Fullscreen -->
+    <div id="lightbox-modal" class="lightbox-modal">
+      <button class="lightbox-close" aria-label="Close">✕</button>
+      <div class="lightbox-content" id="lightbox-content">
+        <!-- Content will be dynamically inserted here -->
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">
+          <p class="footer-text">Elvis Selisana</p>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-center">
+          <span class="footer-year">© <span id="year"></span></span>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-right">
+          <a href="#contact-nav" class="footer-link" aria-label="Contact"
+            >contact</a
+          >
+        </div>
+      </div>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

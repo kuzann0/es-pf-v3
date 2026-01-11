@@ -1,0 +1,24 @@
+{
+  "videos": [
+    {
+      "src": "./public/vids/AVision.mp4",
+      "alt": "video",
+      "tags": ["motion", "animation", "visual"]
+    },
+    {
+      "src": "./public/vids/San-Mig-Rendered.mp4",
+      "alt": "video",
+      "tags": ["3d", "render", "animation"]
+    },
+    {
+      "src": "./public/vids/akatheory_1.mp4",
+      "alt": "video",
+      "tags": ["theory", "branding", "motion"]
+    },
+    {
+      "src": "./public/vids/kuzano-banner.gif",
+      "alt": "video",
+      "tags": ["animation", "banner", "gif"]
+    }
+  ]
+}

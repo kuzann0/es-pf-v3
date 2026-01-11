@@ -1,0 +1,10 @@
+{
+  "web": [
+    {
+      "src": "./public/images/1web.png",
+      "alt": "image",
+      "link": "https://kfooddelights.shop/",
+      "tags": ["capstone", "kfooddeligts"]
+    }
+  ]
+}

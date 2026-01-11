@@ -1,0 +1,16 @@
+{
+  "personal": [
+    {
+      "src": "./public/images/wyv-img.JPG",
+      "alt": "image",
+      "link": "https://writeyourvoice.netlify.app/",
+      "tags": ["personal", "web", "project"]
+    },
+    {
+      "src": "./public/images/valentine.png",
+      "alt": "image",
+      "link": "https://valentine-kuz.netlify.app/",
+      "tags": ["personal", "web", "design"]
+    }
+  ]
+}

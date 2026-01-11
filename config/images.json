@@ -1,0 +1,134 @@
+{
+  "images": [
+    {
+      "src": "./public/images/boltz.png",
+      "alt": "image",
+      "tags": ["design", "branding", "poster"]
+    },
+    {
+      "src": "./public/images/posters/Valeria1.png",
+      "alt": "image",
+      "tags": ["poster"]
+    },
+    {
+      "src": "./public/images/posters/orange.png",
+      "alt": "image",
+      "tags": ["poster"]
+    },
+    {
+      "src": "./public/images/aka1.png",
+      "alt": "image",
+      "tags": ["design", "theory"]
+    },
+    {
+      "src": "./public/images/aka-model-1.png",
+      "alt": "image",
+      "tags": ["design", "apparel", "portrait", "model"]
+    },
+    {
+      "src": "./public/images/aka-modelfront-2.png",
+      "alt": "image",
+      "tags": ["apparel", "design", "portrait", "model"]
+    },
+    {
+      "src": "./public/images/aka3.png",
+      "alt": "image",
+      "tags": ["design", "theory", "logo"]
+    },
+    {
+      "src": "./public/images/aka4.png",
+      "alt": "image",
+      "tags": ["design", "theory", "typography"]
+    },
+    {
+      "src": "./public/images/aka5.png",
+      "alt": "image",
+      "tags": ["design", "branding", "visual"]
+    },
+    {
+      "src": "./public/images/banner2.png",
+      "alt": "image",
+      "tags": ["design", "branding", "visual"]
+    },
+    {
+      "src": "./public/images/banner3.png",
+      "alt": "image",
+      "tags": ["design", "branding", "visual"]
+    },
+    {
+      "src": "./public/images/variants1.jpg",
+      "alt": "image",
+      "tags": ["design", "branding", "visual"]
+    },
+    {
+      "src": "./public/images/variants2.jpg",
+      "alt": "image",
+      "tags": ["design", "branding", "visual"]
+    },
+    {
+      "src": "./public/images/variants3.jpg",
+      "alt": "image",
+      "tags": ["design", "branding", "visual"]
+    },
+    {
+      "src": "./public/images/can1.png",
+      "alt": "image",
+      "tags": ["product", "branding", "3D"]
+    },
+    {
+      "src": "./public/images/can2.png",
+      "alt": "image",
+      "tags": ["product", "branding", "3D"]
+    },
+    {
+      "src": "./public/images/can3.png",
+      "alt": "image",
+      "tags": ["product", "branding", "3D"]
+    },
+    {
+      "src": "./public/images/spiral.png",
+      "alt": "image",
+      "tags": ["design"]
+    },
+    {
+      "src": "./public/images/lunastudio1.png",
+      "alt": "image",
+      "tags": ["lunariastudio", "branding"]
+    },
+    {
+      "src": "./public/images/lunastudio2.png",
+      "alt": "image",
+      "tags": ["lunariastudio", "branding"]
+    },
+    {
+      "src": "./public/images/lunastudio3.png",
+      "alt": "image",
+      "tags": ["lunariastudio", "branding"]
+    },
+    {
+      "src": "./public/images/lunastudio4.png",
+      "alt": "image",
+      "tags": ["lunariastudio", "branding"]
+    },
+    {
+      "src": "./public/images/lunastudio5.png",
+      "alt": "image",
+      "tags": ["lunariastudio", "branding"]
+    },
+    {
+      "src": "./public/images/lunastudio6.png",
+      "alt": "image",
+      "tags": ["lunariastudio", "branding"]
+    },
+    {
+      "src": "./public/images/triumph1.png",
+      "alt": "image",
+      "tags": ["triumPH", "branding"]
+    },
+    {
+      "src": "./public/images/triumph2.png",
+      "alt": "image",
+      "tags": ["triumPH", "branding"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "3d": [
+    {
+      "src": "./public/3D/simple_cola_can.glb",
+      "alt": "3D Model 1",
+      "orientation": "portrait",
+      "link": "#"
+    }
+  ]
+}

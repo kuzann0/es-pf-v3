@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banner - Responsive Option A</title>
+    <style>
+      /* ===================================
+       RESPONSIVE BANNER - OPTION A
+       Best for modern, adaptive layouts
+       ==================================== */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      /* Main banner container
+       Uses aspect-ratio for responsive scaling without fixed heights
+       Supports all modern browsers */
+      .banner-container {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        max-height: 600px; /* Optional: cap max height on large screens */
+        background-image: url("../../public/images/banner-link.png");
+        background-size: cover; /* Covers entire area without distortion */
+        background-position: center; /* Centers image both horizontally & vertically */
+        background-repeat: no-repeat;
+        background-attachment: scroll; /* Static on scroll (not fixed) */
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Optional: Add overlay for better text readability if needed */
+      .banner-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2); /* 20% dark overlay */
+        display: none; /* Remove this line to enable overlay */
+      }
+
+      /* Optional: Add content on top of banner */
+      .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        width: 90%;
+        max-width: 600px;
+        display: none; /* Remove this line to show content */
+      }
+
+      .banner-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .banner-content p {
+        font-size: 1.25rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      /* ===================================
+       MOBILE RESPONSIVE ADJUSTMENTS
+       ==================================== */
+
+      /* Tablets: 768px and up */
+      @media (min-width: 768px) {
+        .banner-container {
+          aspect-ratio: 16 / 9;
+        }
+
+        .banner-content h1 {
+          font-size: 2.5rem;
+        }
+
+        .banner-content p {
+          font-size: 1.25rem;
+        }
+      }
+
+      /* Desktops: 1024px and up */
+      @media (min-width: 1024px) {
+        .banner-container {
+          aspect-ratio: 16 / 9;
+          max-height: 600px;
+        }
+
+        .banner-content h1 {
+          font-size: 3.5rem;
+        }
+
+        .banner-content p {
+          font-size: 1.5rem;
+        }
+      }
+
+      /* Large desktops: 1440px and up */
+      @media (min-width: 1440px) {
+        .banner-container {
+          max-height: 700px;
+        }
+
+        .banner-content h1 {
+          font-size: 4rem;
+        }
+      }
+
+      /* Small phones: Less than 480px */
+      @media (max-width: 479px) {
+        .banner-container {
+          aspect-ratio: 4 / 3; /* Taller on mobile */
+        }
+
+        .banner-content h1 {
+          font-size: 1.75rem;
+        }
+
+        .banner-content p {
+          font-size: 1rem;
+        }
+      }
+
+      /* ===================================
+       UTILITY CLASSES
+       ==================================== */
+
+      .banner-with-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Fallback background color if image fails to load */
+      .banner-fallback {
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Option A: Responsive Banner with Aspect Ratio
+       This approach uses CSS aspect-ratio property for flexible scaling.
+       The banner maintains its proportions on all devices.
+       Perfect for modern browsers (Chrome 88+, Firefox 89+, Safari 15+)
+  -->
+    <div class="banner-container banner-fallback">
+      <!-- Optional: Overlay for text readability -->
+      <div class="banner-overlay"></div>
+
+      <!-- Optional: Content on banner (uncomment to use) -->
+      <!-- <div class="banner-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Crafting digital experiences</p>
+    </div> -->
+    </div>
+
+    <!-- Rest of your page content -->
+    <main style="padding: 2rem; max-width: 1200px; margin: 0 auto">
+      <h2>Your Page Content Here</h2>
+      <p>
+        The banner above is fully responsive and will scale perfectly on all
+        devices.
+      </p>
+    </main>
+
+    <!-- ===================================
+       HOW THIS WORKS:
+       
+       1. aspect-ratio: 16/9
+          - Maintains 16:9 proportion on all screen sizes
+          - No fixed height needed
+          - Image never distorts
+       
+       2. background-size: cover
+          - Image fills entire container
+          - May crop on sides (no letterboxing)
+       
+       3. background-position: center
+          - Keeps important parts of image centered
+          - Good for logos or centered subjects
+       
+       4. Media Queries
+          - Adjust max-height for very large screens
+          - Adjust text sizes for different viewports
+       
+       5. Fallback Color
+          - Shows if image fails to load
+          - Better UX than blank space
+       ==================================== -->
+  </body>
+</html>
